@@ -1,4 +1,39 @@
-body {
+body, html {
+   margin: 0;
     font-family: "Times New Roman", Times, serif;
-    color: #8BBD8B;
+    color: #00171F;
+    background-color: #ACCE85;
 }
+
+.navbar {
+    background-color: #333;
+    color: wheat;
+    position: sticky; 
+    top: 0px;
+    width: 100%; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.content {
+    padding: 80px 20px; 
+    height: 1000px; 
+    background-color: #F4F4F4; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline; 
+}
+ p {
+    margin: 10px;
+ }
+ 
+
