@@ -4,7 +4,9 @@ body, html {
     color: #00171F;
     background-color: #ACCE85;
 }
-
+h1 {
+    text-align: center;
+}
 .navbar {
     background-color: #333;
     color: wheat;
@@ -33,7 +35,8 @@ body, html {
     text-decoration: underline; 
 }
  p {
-    margin: 10px;
+    padding-left: 20px; 
  }
+
  
 
