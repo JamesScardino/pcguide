@@ -4,35 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How To Build a PC</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <p><h1> The Everything Guide On How To Build A PC</h1></p>    
-
-
-    <header class="navbar">
-        <a href="#home"> Home </a>
-        <a href="https://news.yahoo.com" target="_blank">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+    <header class="header">
+        <h1>Guide On How To Build A PC</h1>
     </header>
+
+    <nav class="navbar">
+        <a href="">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+            <button class="dropbtn">PC Parts Information <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="/components/cpu-info.html">CPU</a>
+                <a href="/components/gpu-info.html">GPU</a>
+                <a href="/components/ram-info.html">RAM</a>
+                <a href="/components/mobo-info.html">Motherboard</a>
+                <a href="/components/ps-info.html">Power Supply</a>
+                <a href="/components/case-info.html">Case</a>
+                <a href="/components/storage-info.html">Storage</a>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="content">
+        <div class="container">
+            Building your own PC is a fun and exciting experience that allows you to pick and choose every part of your computer and make it look exactly how you want it to. To build a PC efficiently, the first step is determining its purpose. Will you use it for gaming, work, browsing, or streaming? Once you know what you want to use your PC for, you can choose the parts accordingly and build your dream machine.
+        </div>
+
+        <div class="container"> 
+            Below is an interactive image where you can view all of the parts of a functioning computer.
+            Click any computer part name for more information. 
+        
+        </div>
+
+        <img class="pc-parts" src="/images/anatomy of a pc.format-webp.webp" alt="Computer Parts" usemap="#computerparts">
+        
+        <map name="computerparts">
+            <area shape="rect" coords="186,247,536,290" href="/components/cpu-info.html" alt="CPU">
+            <area shape="rect" coords="69,308,538,338" href="link-to-cooler.html" alt="CPU Cooler">
+            <area shape="rect" coords="306,127,467,152" href="/components/fans-info.html" alt="Fans">
+            <area shape="rect" coords="833,438,1401,460" href="/components/gpu-info.html" alt="gpu">
+            <area shape="rect" coords="833,438,1401,460" href="/components/mobo-info.html" alt="motherboard">
+            <area shape="rect" coords="833,438,1401,460" href="/components/ps-info.html" alt="gpu">
+            <area shape="rect" coords="833,438,1401,460" href="/components/case-info.html" alt="gpu">
+
+        </map>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Guide on Building PCs. All rights reserved.</p>
+    </footer>
     
-    <div class="content">
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi accusamus quia dolores rerum eligendi illum vel eum illo molestiae quod. </p>    
-    </div>
-
-    <img src="/images/anatomy of a pc.format-webp.webp" usemap="#computerparts" alt="Computer Parts">
-<map name="computerparts">
-    <area shape="rect" coords="128,170,358,194" href="/components/cpu-info.html" alt="CPU">
-    <area shape="rect" coords="x1,y1,x2,y2" href="link-to-cooler.html" alt="CPU Cooler">
-    <area shape="rect" coords="x1,y1,x2,y2" href="link-to-fans.html" alt="Fans">
-    <!-- Add more areas for other parts -->
-</map>
-
-
-
-
-
 </body>
 </html>
