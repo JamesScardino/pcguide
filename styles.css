@@ -2,14 +2,32 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
-  color: #BBBBBB;
-  background-color: #1A1A1A;
+  color: #ECECEC;
+  background-color: #2E2E2E;
   
 }
 h1 {
     text-align: center;
+    color: #3498DB;
+    font-size: 50px;
 }
 
+h2 {
+  color: #3498DB;
+  text-align: center;
+}
+h3 {
+  color: #3498DB;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
 .navbar {
     display: flex;
     justify-content: center;
@@ -25,7 +43,7 @@ h1 {
   }
   
   .navbar a {
-    font-size: 16px;
+    font-size: 24px;
     color: white;
     text-align: center;
     padding: 14px 25px;
@@ -37,7 +55,7 @@ h1 {
   }
   
   .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 24px;  
     border: none;
     outline: none;
     color: white;
@@ -48,16 +66,15 @@ h1 {
   }
 
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #3498DB;
   }
-
   .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    
   }
 
   .dropdown-content a {
@@ -74,8 +91,10 @@ h1 {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
   .content {
-    font-size: 20px;
+    font-size: 23px;
+    line-height: 30px;
   }
 
   .content {
@@ -84,7 +103,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 70px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -95,15 +114,20 @@ h1 {
     background-color: #333333;
     padding: 5px 10px; /* Reduced side padding */
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
     box-sizing: border-box;
 }
 
  .pc-parts {
    width: 120%;
    max-width: 1500px;
-   
+   margin-top: -50px;
  }
 
- 
+ #image-caption {
+  border: none;
+  background-color: #2E2E2E;
+  margin-bottom: 50px;
+  font-size: 22px;
+ }
 
