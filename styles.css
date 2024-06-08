@@ -2,9 +2,8 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
-  color: #ECECEC;
-  background-color: #2E2E2E;
-  
+  color: rgb(245, 249, 252);
+  background-color: rgb(14, 21, 37);
 }
 h1 {
     text-align: center;
@@ -15,6 +14,8 @@ h1 {
 h2 {
   color: #3498DB;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 h3 {
   color: #3498DB;
@@ -28,10 +29,22 @@ ul {
 ul li {
   margin-bottom: 10px;
 }
+
+footer {
+  font-size: 14px;
+}
+
+.yt-links {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
 .navbar {
     display: flex;
     justify-content: center;
-    background-color:  #333333;
+    background-color:rgb(28, 35, 51);
     position: sticky;
     top: 0;
   }
@@ -105,6 +118,7 @@ ul li {
     padding: 70px;
     max-width: 1400px;
     margin: 0 auto;
+    
 }
 
 .container {
@@ -114,8 +128,10 @@ ul li {
     background-color: #333333;
     padding: 5px 10px; /* Reduced side padding */
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     box-sizing: border-box;
+    color: #fff;
+    background: radial-gradient(circle, rgba(50,50,50,1) 0%, rgba(30,30,30,1) 35%, rgba(20,20,20,1) 70%, rgba(10,10,10,1) 100%);
 }
 
  .pc-parts {
@@ -126,8 +142,33 @@ ul li {
 
  #image-caption {
   border: none;
-  background-color: #2E2E2E;
+  background:  rgb(14, 21, 37);
   margin-bottom: 50px;
-  font-size: 22px;
+  /* font-size: 30px; */
+  font-weight: 300;
  }
 
+ .AMD-image, .INTEL-image {
+     width: 380px;
+     height: auto; /* or do 200-300px so they even height */
+     margin: 8px;
+ }
+
+ .Air-image, .Liquid-image,
+ .SFF-image {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+ }
+ .gpu {
+  width: 600px;
+ }
+ .images-container {    
+     justify-content: space-around;
+     margin-bottom: 20px;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 20px;
+     padding: 20px;
+ }
