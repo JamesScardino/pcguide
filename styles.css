@@ -155,12 +155,14 @@ footer {
  }
 
  .Air-image, .Liquid-image,
- .SFF-image {
+ .SFF-image, .fans {
   width: 500px;
+  justify-content: space-eve;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
  }
+
  .gpu {
   width: 600px;
  }
@@ -171,4 +173,5 @@ footer {
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
      gap: 20px;
      padding: 20px;
+     width: 100%;
  }
