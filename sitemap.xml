@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/index.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/cpu-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/cpu-cooler-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/gpu-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/ram-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/mobo-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/ps-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/storage-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/case-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jamesscardino.github.io/pcguide/components/case-fans-info.html</loc>
+  <lastmod>2024-06-16T20:48:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
